@@ -1,0 +1,41 @@
+{
+  "name": "jingyouSpider",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Red626/jingyouSpider"
+  },
+  "description": "study",
+  "main": "src/index.js",
+  "scripts": {
+    "watch": "webpack --progress --colors --watch",
+    "deploy": "webpack --progress --display-error-details",
+    "init": "node output/main.bundle.js init",
+    "once": "node output/main.bundle.js once",
+    "fetch": "node output/main.bundle.js fetch",
+    "test": "node output/main.bundle.js test"
+  },
+  "keywords": [
+    "node",
+    "jingyou",
+    "spider"
+  ],
+  "author": "Terrance",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "cheerio": "^0.22.0",
+    "mongodb": "^2.2.11",
+    "request": "^2.78.0",
+    "webpack": "^2.1.0-beta.28",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "readmeFilename": "README.md"
+}

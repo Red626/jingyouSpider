@@ -1,0 +1,9 @@
+/node_modules/*
+/output/*
+/tmp/*
+*.log
+.DS_Store
+*.html
+/src/config.js
+~*
+/images/*
